@@ -95,8 +95,10 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .benefits-list li span {
+    .benefits-list li i {
       font-size: 1.4rem;
+      width: 30px;
+      color: var(--primary-color);
     }
 
     .cta-text {
@@ -122,7 +124,7 @@
       justify-content: center;
       background: white;
       color: #000;
-      padding: 1.2rem;
+      padding: 0.5rem;
       border-radius: 50%;
       text-align: center;
       text-decoration: none;
@@ -133,7 +135,13 @@
     }
 
     .link-btn i {
-      font-size: 2.5rem;
+      font-size: 2.4rem;
+    }
+
+    .link-btn img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
     }
 
     .link-btn:hover {
@@ -199,10 +207,10 @@
     </header>
 
     <ul class="benefits-list">
-      <li><span>🤝</span> Meet fellow South Sudanese students</li>
-      <li><span>📚</span> Academic and career support</li>
-      <li><span>🎉</span> Social events and cultural celebrations</li>
-      <li><span>🧭</span> Orientation for new students</li>
+      <li><i class="fas fa-handshake"></i> Meet fellow South Sudanese students</li>
+      <li><i class="fas fa-book"></i> Academic and career support</li>
+      <li><i class="fas fa-users"></i> Social events and cultural celebrations</li>
+      <li><i class="fas fa-compass"></i> Orientation for new students</li>
     </ul>
 
     <p class="cta-text">
@@ -212,13 +220,16 @@
     <div class="icons-grp">
       <a class="link-btn whatsapp-btn"
         href="https://wa.me/254113955353?text=Hi%2C%20I%20would%20like%20to%20join%20the%20student%20association"
-        target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-      <a class="link-btn instagram-btn" href="https://www.instagram.com/mkusssa?igsh=YTYwcm5oaGZ2dDNm" target="_blank"
-        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-      <a class="link-btn facebook-btn" href="https://www.facebook.com/profile.php?id=61560526555617" target="_blank"
-        aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-      <a class="link-btn tiktok-btn" href="https://www.tiktok.com/@mkusssa?_t=ZM-8ww25t4VYeb&_r=1" target="_blank"
-        aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        target="_blank" aria-label="WhatsApp" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+      <a class="link-btn instagram-btn" href="https://www.instagram.com/mkusssa" target="_blank" aria-label="Instagram"
+        rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a class="link-btn facebook-btn"
+        href="https://www.facebook.com/people/MKU-South-Sudanese-Students-Association-Nairobi-Campus/61560526555617/"
+        target="_blank" aria-label="Facebook" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+      <a class="link-btn tiktok-btn" href="https://www.tiktok.com/@mkusssa" target="_blank" aria-label="TikTok"
+        rel="noopener noreferrer">
+        <img src="./img/tiktok-logo.svg" alt="TikTok Logo">
+      </a>
     </div>
   </div>
 
