@@ -9,7 +9,7 @@ qr = qrcode.QRCode(
     border=1,  # or 0 if cropping
 )
 
-qr.add_data("https://mkusssa.netlify.app/")
+qr.add_data("https://mkusssa-nairobi.netlify.app/")
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white").convert('RGB')
